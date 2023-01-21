@@ -11,28 +11,11 @@ body {
 }
 main {
   flex: 1;
-  padding: 1rem;
+ 
 
 }
-header a {
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: bold;
-
-
-}
-header a:hover {
-  color: #f0c040;
-  text-decoration: none;
-  font-weight: bold;
-}
-header {
-  background-color: #100901;
-  color: #f0c040;
-  padding: 1rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.site-container{
+  min-height: 100vh;
 }
 .btn-primary,
 .btn-outline-primary {
